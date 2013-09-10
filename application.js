@@ -6,11 +6,12 @@ document.forms[0][0].focus();
 $(document).ready( function() {
     $('#item').on('keydown',function(event){ // adds item on enter press
         if(event.keyCode == 13) {
+            $(':input').attr('placeholder','');
             event.preventDefault();
             var item = $(this).val();
             if(isBlank(item)){ // if all blanks make text red
-                $(':input').val('Invalid Entry');
-                $(this).css('color','red');
+                $(':input').val('');
+                $(':input').attr('placeholder','Invalid Entry');
                 return;
             }
             $(this).css('color','black');
