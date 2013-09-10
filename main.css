@@ -73,6 +73,9 @@ li{
 li div{
     display:inline-block;
 }
+.checkbox:hover{
+    cursor: pointer;
+}
 
 .checkbox{
     margin-right:10px;
@@ -96,4 +99,14 @@ li div{
 
 .set{
     margin-left: 10px;
+}
+ul hr{
+    height: 2px;
+    background-color: black;
+    color: black;
+}
+hr{
+    height: 3px;
+    background-color: red;
+    color: red;
 }
