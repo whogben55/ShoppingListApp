@@ -32,7 +32,6 @@ $(document).ready( function() {
         }
     });
     $('#remove').on('click',function(){
-        $('.checked').next().remove();
         $('.checked').remove();
     });
 });
