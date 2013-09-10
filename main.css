@@ -52,6 +52,7 @@ input {
     height:50px;
     font-size:30px;
     line-height:40px;
+    margin-top: -10px;
 }
 ul{
     font-family: 'hand';
@@ -69,6 +70,7 @@ li{
     font-size:30px;
     line-height:40px;
     width: auto;
+    margin:10px 0;
 }
 li div{
     display:inline-block;
@@ -100,11 +102,11 @@ li div{
 .set{
     margin-left: 10px;
 }
-.line{
+li .line{
+    display:block;
     height: 2px;
     background-color: black;
     color: black;
-    margin-top:10px;
 }
 hr{
     height: 3px;

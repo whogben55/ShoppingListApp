@@ -41,7 +41,7 @@ $(document).ready( function() {
 // create the list item
 function listString(item){ 
     var before = '<li><div></div><div class="set">';
-    var after = '</div></li><div class="line"></div>';
+    var after = '</div><div class="line"></div></li>';
     return before + item + after;
 }
 
